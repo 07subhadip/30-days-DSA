@@ -247,6 +247,8 @@ Welcome to the 30-Day DSA Mastery Plan! This roadmap is designed to help you mas
 
 Happy coding and good luck with your interview preparation!
 
+<hr>
+
 ## ⭐ Star This Repository
 
 If you find this repository helpful, please consider giving it a ⭐ star. Your support helps encourage the improvement of this course and makes it more visible to others who might benefit from it.
