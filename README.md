@@ -246,3 +246,125 @@ Welcome to the 30-Day DSA Mastery Plan! This roadmap is designed to help you mas
 - [CodeSignal](https://codesignal.com/)
 
 Happy coding and good luck with your interview preparation!
+
+## ⭐ Star This Repository
+
+If you find this repository helpful, please consider giving it a ⭐ star. Your support helps encourage the improvement of this course and makes it more visible to others who might benefit from it.
+
+## 🍴 How to Fork This Repository
+
+If you'd like to use this repository on your local machine, follow these steps to fork it:
+
+1. **Fork the Repository:**
+   - Go to the GitHub page of the repository you want to fork.
+   - Click the "Fork" <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+     <path d="M 5 5.372 v 0.878 c 0 0.414 0.336 0.75 0.75 0.75 h 4.5 a 0.75 0.75 0 0 0 0.75 -0.75 v -0.878 a 2.25 2.25 0 1 1 1.5 0 v 0.878 a 2.25 2.25 0 0 1 -2.25 2.25 h -1.5 v 2.128 a 2.251 2.251 0 1 1 -1.5 0 V 8.5 h -1.5 A 2.25 2.25 0 0 1 3.5 6.25 v -0.878 a 2.25 2.25 0 1 1 1.5 0 Z M 5 3.25 a 0.75 0.75 0 1 0 -1.5 0 a 0.75 0.75 0 0 0 1.5 0 Z m 6.75 0.75 a 0.75 0.75 0 1 0 0 -1.5 a 0.75 0.75 0 0 0 0 1.5 Z m -3 8.75 a 0.75 0.75 0 1 0 -1.5 0 a 0.75 0.75 0 0 0 1.5 0 Z"/>
+   </svg> button at the top right of the page.
+
+   <!-- ![Fork Button](https://cdn-icons-png.flaticon.com/128/6577/6577277.png) -->
+
+   
+
+
+2. **Clone Your Forked Repository:**
+   - After forking, you will have a copy of the repository in your GitHub account.
+   - Copy the URL of your forked repository. You can find this by navigating to your forked repository on GitHub and clicking the green "Code" button, then copying the URL provided.
+
+   Example URL: `https://github.com/YOUR_USERNAME/YOUR_FORK.git`
+
+   - Open your terminal and clone your forked repository using the following command:
+
+     ```bash
+     git clone https://github.com/YOUR_USERNAME/YOUR_FORK.git
+     ```
+
+3. **Navigate into the Project Directory:**
+   - Change into the directory of your cloned repository:
+
+     ```bash
+     cd YOUR_FORK
+     ```
+
+4. **Add the Original Repository as a Remote:**
+   - It’s a good practice to add the original repository as a remote to keep your fork up-to-date with the latest changes.
+
+     ```bash
+     git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+     ```
+
+     Replace `ORIGINAL_OWNER` and `ORIGINAL_REPOSITORY` with the original repository's owner and name.
+
+5. **Pull Latest Changes from the Original Repository:**
+   - Before making changes, ensure you have the latest updates from the original repository:
+
+     ```bash
+     git fetch upstream
+     git checkout main
+     git merge upstream/main
+     ```
+
+6. **Make Changes and Commit:**
+   - Create a new branch for your changes:
+
+     ```bash
+     git checkout -b your-branch-name
+     ```
+
+   - Make your changes and commit them:
+
+     ```bash
+     git add .
+     git commit -m "Description of your changes"
+     ```
+
+7. **Push Your Changes:**
+   - Push your changes to your forked repository:
+
+     ```bash
+     git push origin your-branch-name
+     ```
+
+8. **Create a Pull Request:**
+   - Go to your forked repository on GitHub.
+   - Click the "Compare & pull request" <img src="https://cdn-icons-png.flaticon.com/128/6577/6577277.png" alt="Fork Button" width="20" height="20" style="display:block"> button.
+   - Provide a description of your changes and submit the pull request to the original repository.
+
+   <!-- ![Pull Request Button](https://docs.github.com/assets/images/help/pull_requests/pull_request_button.png) -->
+
+  <!-- <img src="https://cdn-icons-png.flaticon.com/128/6577/6577277.png" alt="Fork Button" width="20" height="20"> -->
+
+## Example Commands
+
+Here's a summary of the commands you will use:
+
+```bash
+# Clone your forked repository
+git clone https://github.com/YOUR_USERNAME/YOUR_FORK.git
+
+# Navigate into the project directory
+cd YOUR_FORK
+
+# Add the original repository as a remote
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+
+# Fetch and merge changes from the original repository
+git fetch upstream
+git checkout main
+git merge upstream/main
+
+# Create a new branch, make changes, and commit
+git checkout -b your-branch-name
+git add .
+git commit -m "Description of your changes"
+
+# Push changes to your fork and create a pull request
+git push origin your-branch-name
+```
+
+## 🚨 Warnings and Cautions
+- ### Be Respectful: 
+  - #### Follow the code of conduct and be respectful of other contributors.
+- ### Test Your Changes: 
+  - #### Ensure your changes are tested and do not break existing functionality.
+- ### Keep Your Fork Updated: 
+  - #### Regularly pull changes from the original repository to keep your fork up-to-date.
