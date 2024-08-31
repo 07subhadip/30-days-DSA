@@ -374,9 +374,11 @@ Try to solve these problems. If you find any difficulty while solving these chal
 **Remember:** If these names are new to you, don't worry! We'll discuss everything clearly and in a simplified manner in the upcoming days. This journey is about taking small, steady steps to build a strong foundation. 🚀
 
 **⭐Star the Repo⭐**
+
 Your support will encourage us to provide more details about all the topics.
 
 **🍴Fork the repo**
+
 Feel free to fork the repo to contribute in this course and get all the files in your local system.
 
 *See You in the Next Topic*
