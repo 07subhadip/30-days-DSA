@@ -1,4 +1,4 @@
-# 🚀 Day 2: Arrays - Advanced Techniques
+# 🚀 Day 2: Arrays - Advanced Techniques🚀
 
 Hello everyone! 👋
 
