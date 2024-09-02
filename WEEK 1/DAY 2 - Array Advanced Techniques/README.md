@@ -389,7 +389,6 @@ The **Sliding Window Technique** is used to reduce the time complexity in proble
 **Visualization:**
 <div align="center">
 
-Window	Sum	Max Sum
 | Window            | Sum | Max Sum |
 |-------------------|-----|---------|
 | [2, 1, 5], 1, 3, 2 | 8   | 8       |
