@@ -1,0 +1,11 @@
+# Solution : Counting + Two Pointers
+
+We use a hash table or array $need$ to count the number of occurrences of each character in string $t$, and another hash table or array $window$ to count the number of occurrences of each character in the sliding window. In addition, we define two pointers $j$ and $i$ to point to the left and right boundaries of the window, respectively. The variable $cnt$ represents how many characters in $t$ are already included in the window. The variables $k$ and $mi$ represent the starting position and length of the minimum covering substring, respectively.
+
+We traverse the string $s$ from left to right. For the currently traversed character $s[i]$:
+
+We add it to the window, i.e., $window[s[i]] = window[s[i]] + 1$. If $need[s[i]] \geq window[s[i]]$ at this time, it means that $s[i]$ is a "necessary character", so we increment $cnt$ by one. If $cnt$ equals the length of $t$, it means that all characters in $t$ are already included in the window at this time, so we can try to update the starting position and length of the minimum covering substring. If $i - j + 1 \lt mi$, it means that the substring represented by the current window is shorter, so we update $mi = i - j + 1$ and $k = j$. Then, we try to move the left boundary $j$. If $need[s[j]] \geq window[s[j]]$ at this time, it means that $s[j]$ is a "necessary character". When moving the left boundary, the character $s[j]$ will be removed from the window, so we need to decrement $cnt$ by one, then update $window[s[j]] = window[s[j]] - 1$, and move $j$ one step to the right. If $cnt$ does not equal the length of $t$, it means that all characters in $t$ are not yet included in the window at this time, so we don't need to move the left boundary, just move $i$ one step to the right and continue to traverse.
+
+After the traversal, if the minimum covering substring is not found, return an empty string, otherwise return $s[k:k+mi]$.
+
+The time complexity is $O(m + n)$, and the space complexity is $O(C)$. Here, $m$ and $n$ are the lengths of strings $s$ and $t$ respectively; and $C$ is the size of the character set, in this problem $C = 128$.
