@@ -4,7 +4,9 @@ Hello everyone! 👋
 
 Welcome to **Day 3** of our 30 Days **DSA Crash Course!**
 
-Today, we're diving into one of the most fundamental and versatile data types in programming: **Strings**. Strings might seem simple, but they can be incredibly powerful when you know how to manipulate them effectively. Let's explore what strings are, how to manipulate them, and why they matter so much.
+Today, we're diving into one of the most fundamental and versatile data types in programming: **Strings**.
+
+Strings might seem simple, but they can be incredibly powerful when you know how to manipulate them effectively. Let's explore what strings are, how to manipulate them, and why they matter so much.
 
 <hr>
 
