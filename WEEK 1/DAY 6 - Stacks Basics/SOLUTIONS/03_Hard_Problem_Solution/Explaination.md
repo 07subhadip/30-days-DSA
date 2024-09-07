@@ -32,8 +32,3 @@ This process ensures that each element is pushed and popped from the stack only 
 
 ### Space Complexity:
 - **O(n)**, due to the space required for the stack and the result array.
-
-### Example Walkthrough:
-Consider the input:
-```python
-temperatures = [73, 74, 75, 71, 69, 72, 76, 73]
