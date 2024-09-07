@@ -371,7 +371,9 @@ Today, you're diving into the world of arrays! By the end of the day, you'll kno
 
 Try to solve these problems. If you find any difficulty while solving these challanges feel free to go to repo and read the `explaination.md` file where the details of the solution is explained in a proper way
 
-**Remember:** If these names are new to you, don't worry! We'll discuss everything clearly and in a simplified manner in the upcoming days. This journey is about taking small, steady steps to build a strong foundation. 🚀
+**Remember:** 
+
+If these names are new to you, don't worry! We'll discuss everything clearly and in a simplified manner in the upcoming days. This journey is about taking small, steady steps to build a strong foundation. 🚀
 
 **⭐Star the Repo⭐**
 
