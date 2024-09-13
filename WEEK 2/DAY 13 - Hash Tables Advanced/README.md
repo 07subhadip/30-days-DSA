@@ -1,4 +1,4 @@
-# 🚀 Day 13: Hash Tables - Advanced
+# 🚀 Day 13: Hash Tables - Advanced🚀
 
 Welcome to **Day 13** of our **30-Day DSA Crash Course!**
 
@@ -89,7 +89,7 @@ Let’s break down some advanced uses of hash tables:
 
 <hr>
 
-## 💻 Practical Code Snippet for Subarray Sum Equals K (Python Example)
+## 💻 Practical Code Snippet for Subarray Sum Equals K
 
 - [C++](#cpp)
 - [Pyhton](#python)
