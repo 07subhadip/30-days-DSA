@@ -42,7 +42,7 @@ In this example, the list tells you that:
 
 This is like knowing which cities are directly connected by roads! 🏙️🚗
 
-2. Adjacency Matrix 📊
+2. **Adjacency Matrix 📊**
 
 - An **adjacency matrix** is a 2D array (or matrix) where each cell `[i][j]` is `1` if there's an edge between vertex `i` and `j`, and `0` if not. It’s useful for **dense graphs** (where many vertices are connected).
 
@@ -99,7 +99,7 @@ Imagine a map of cities and roads. Each city is a **vertex**, and each road is a
 
 Now that you’ve got the basics of graphs, let’s explore them more in upcoming days! 💡
 
-  ## 📚 What's Next?
+## 📚 What's Next?
 Now that we've covered the concepts, try applying them to the following practice problems:
 
 
