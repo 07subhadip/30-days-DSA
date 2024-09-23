@@ -106,7 +106,7 @@ Mastering these advanced graph techniques is essential as they apply to a wide r
 Keep up the great work—you're building a strong foundation in algorithms and data structures that will pay off in your coding journey! 🏅
 
 
-  ## 📚 What's Next?
+## 📚 What's Next?
 Now that we've covered the concepts, try applying them to the following practice problems:
 
   - **Easy:** [Course Schedule](https://leetcode.com/problems/course-schedule/)
