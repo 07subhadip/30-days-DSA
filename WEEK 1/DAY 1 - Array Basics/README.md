@@ -65,7 +65,7 @@ You can add items to your array, either at the *beginning*, in the *middle*, or 
         vector<int> arr = {2,4,6,8};
 
         // inserting element at the end
-        arr.push_back[10]; // [2, 4, 6, 8, 10]
+        arr.push_back(10); // [2, 4, 6, 8, 10]
 
         // Insert at the beginning
         arr.insert(arr.begin(), 0); // [0, 2, 4, 6, 8, 10]
